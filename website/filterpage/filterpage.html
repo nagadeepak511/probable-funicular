@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amazon Clone</title>
+    <meta name="keywords" content="amazon clone, programming and more amazon clone"/>
+    <link rel="stylesheet" href="../homepage/style.css"/>
+    <link rel="stylesheet" href="./filterpage.css"/>
+    <script src="https://kit.fontawesome.com/6116fe2258.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="top">
+        <ul>
+            <li class="navbar-brand header-links">Amazon clone</li>
+            <div>
+                <!-- <li class="header-links"><i class="fas fa-search"></i></li> -->
+                <li class="header-links"><i class="fas fa-shopping-cart"></i></li>
+                <li><button class='amazonoutlinebutton'>Sign in</button></li>
+            </div>
+        </ul>
+        <ul id="mobile-nav-links-list">
+            <li>
+                <select class="headerfontsize">
+                    <option value="">--Select Location--</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Vijayawada">Vijayawada</option>
+                    <option value="">Delhi</option>
+                    <option value="">Mumbai</option>
+                </select>
+            </li>
+            <li>
+                <div id="header-search-container">
+                    <select class="headerfontsize">
+                        <option value="">--Select category--</option>
+                    </select>
+                    <input class="headerfontsize"/>
+                    <button class="headerfontsize amazonbutton">Search</button>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <div class="filterpagecontainer">
+        <div class="filterpageformcontainer">
+            <h2 class="filterformheading">FILTERS</h2>
+            <div class="filterpageformgroup">
+                <h2 class="formlabel">Brand</h2>
+                <div class="forminputcontainer">
+                    <input type="checkbox" name="brand"/><span>Apple</span>
+                </div>
+                <div class="forminputcontainer">
+                    <input type="checkbox" name='brand'/><span>Beats</span>
+                </div>
+                <div class="forminputcontainer">
+                    <input type="checkbox" name="brand"/><span>Paperboat</span>
+                </div>
+                <div class="forminputcontainer">
+                    <input type="checkbox" name="brand"/><span>Duracell</span>
+                </div>
+            </div>
+            <div class="filterpageformgroup">
+                <h2 class="formlabel">Cost</h2>
+                <div class="forminputcontainer">
+                    <input type="radio" name="cost"/><span>Less than 1000</span>
+                </div>
+                <div class="forminputcontainer">
+                    <input type="radio" name="cost"/><span>1000 to 2000</span>
+                </div>
+                <div class="forminputcontainer">
+                    <input type="radio" name="cost"/><span>2000 to 5000</span>
+                </div>
+                <div class="forminputcontainer">
+                    <input type="radio" name="cost"/><span>5000+</span>
+                </div>
+            </div>
+            <div class="filterpageformgroup">
+                <h2 class="formlabel">Rating</h2>
+                <div class="forminputcontainer">
+                    <input type="radio" name="rating"/><span>Less than 3</span>
+                </div>
+                <div class="forminputcontainer">
+                    <input type="radio" name="rating"/><span>3 to 4</span>
+                </div>
+                <div class="forminputcontainer">
+                    <input type="radio" name="rating"/><span>4 to 5</span>
+                </div>
+            </div>
+            <div class="filterpageformgroup">
+                <h2 class="formlabel">Sort(Price)</h2>
+                <div class="forminputcontainer">
+                    <input type="radio" name="sort"/><span>Low to High</span>
+                </div>
+                <div class="forminputcontainer">
+                    <input type="radio" name="sort"/><span>High to Low</span>
+                </div>
+            </div>
+        </div>
+        <div class="filterpageresultcontainer">
+            <div class="filterresult">
+                <div class="filterresultthumb" style="background-image: url('https://m.media-amazon.com/images/I/51bRSWrEc7S._AC_UL320_.jpg');"></div>
+                <h3 class="filterresultheading">Beats Studio Buds – True Wireless Noise Cancelling Earbuds – Compatible with Apple & Android</h3>
+                <div class="filterresultratingcontainer"></div>
+                <p class="filterresultcost">&#8377; 500</p>
+            </div>
+            <div class="filterresult">
+                <div class="filterresultthumb" style="background-image: url('https://m.media-amazon.com/images/I/51K52ZFwH+L._AC_UL320_.jpg');"></div>
+                <h3 class="filterresultheading">Skylight Frame: 10 inch WiFi Digital Picture Frame, Email Photos from Anywhere, Touch Screen Display,</h3>
+                <div class="filterresultratingcontainer"></div>
+                <p class="filterresultcost">&#8377; 500</p>
+            </div>
+            <div class="filterresult">
+                <div class="filterresultthumb" style="background-image: url('https://m.media-amazon.com/images/I/51K52ZFwH+L._AC_UL320_.jpg');"></div>
+                <h3 class="filterresultheading">Skylight Frame: 10 inch WiFi Digital Picture Frame, Email Photos from Anywhere, Touch Screen Display,</h3>
+                <div class="filterresultratingcontainer"></div>
+                <p class="filterresultcost">&#8377; 500</p>
+            </div>
+            <div class="filterresult">
+                <div class="filterresultthumb" style="background-image: url('https://m.media-amazon.com/images/I/616VM20+AzL._AC_UL320_.jpg');"></div>
+                <h3 class="filterresultheading">AMD Ryzen 9 5900X 12-core, 24-Thread Unlocked Desktop Processor</h3>
+                <div class="filterresultratingcontainer"></div>
+                <p class="filterresultcost">&#8377; 500</p>
+            </div>
+            <div class="filterresult">
+                <div class="filterresultthumb" style="background-image: url('https://m.media-amazon.com/images/I/91ghhfky4LL._AC_UL320_.jpg');"></div>
+                <h3 class="filterresultheading">Apple MagSafe Charger</h3>
+                <div class="filterresultratingcontainer"></div>
+                <p class="filterresultcost">&#8377; 500</p>
+            </div>
+            <div class="filterresult">
+                <div class="filterresultthumb" style="background-image: url('https://m.media-amazon.com/images/I/81tjLksKixL._AC_UL320_.jpg');"></div>
+                <h3 class="filterresultheading">Seagate Portable 2TB External Hard Drive Portable HDD – USB 3.0 for PC, Mac,</h3>
+                <div class="filterresultratingcontainer"></div>
+                <p class="filterresultcost">&#8377; 500</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="amazonlightbutton"><a href="#top" style="color:white;text-decoration:none;">Back to top</a></button>
+    <footer>
+        <div class="footer-nav-links-container">
+            <h3>Know more ..</h3>
+            <ul>
+                <li><a>About us</a></li>
+                <li><a>Terms</a></li>
+            </ul>
+        </div>
+        <div class="footer-nav-links-container">
+            <h3>Categories</h3>
+            <ul>
+                <li><a>Electronics</a></li>
+                <li><a>Watches</a></li>
+                <li><a>Books</a></li>
+                <li><a>Fitness Needs</a></li>
+                <li><a>Footwear</a></li>
+                <li><a>Clothing</a></li>
+            </ul>
+        </div>
+        <div class="footer-nav-links-container">
+            <h3>Bussiness</h3>
+            <ul>
+                <li><a>Join us</a></li>
+                <!-- <li><a>Terms</a></li> -->
+            </ul>
+        </div>
+        <div class="footer-nav-links-container">
+            <h3>Useful links</h3>
+            <ul>
+                <li><a>Login</a></li>
+                <li><a>Home</a></li>
+            </ul>
+        </div>
+        <div style="width:100%;text-align: center;">&copy; Naga Deepak</div>
+    </footer>
+</body>
+</html>

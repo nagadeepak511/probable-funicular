@@ -1,0 +1,34 @@
+footer{
+    width: 100vw;
+    background-color: #2d323e;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    padding: 2rem 0;
+}
+
+.footer-nav-links-container{
+    /* padding: 1rem 1rem; */
+    margin: 1rem;
+}
+
+.footer-nav-links-container > ul {
+    padding: 0.5rem 0;
+}
+
+.footer-nav-links-container > ul > li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer-nav-links-container > ul > li:hover{
+    color: #ffa600;
+}
+
+@media screen and (max-width: 678px){
+    .footer-nav-links-container{
+        width: 35%;
+    }
+}

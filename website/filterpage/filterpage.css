@@ -1,0 +1,94 @@
+.filterpagecontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    padding: 2rem 0;
+}
+
+.filterpageformcontainer{
+    background-color: white;
+    width: 200px;
+    padding: 2rem;
+}
+
+.filterformheading{
+    font-style: italic;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.filterpageresultcontainer{
+    background-color: white;
+    width: 900px;
+    padding: 2rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+.filterresult{
+    width:250px;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    overflow:hidden;
+    padding: 0.5rem;
+    padding-bottom: 1.5rem;
+    cursor:pointer;
+}
+
+.filterresult:hover{
+    color: #575f74;
+    text-decoration: underline;
+}
+
+.filterresultthumb{
+    width: 100%;
+    aspect-ratio: 0.8;
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    margin-bottom: 1rem;
+}
+
+.filterpageformgroup{
+    margin-bottom: 1rem;
+}
+
+.formlabel{
+    font-size: 1.25rem;
+}
+
+.forminputcontainer > input{
+    margin-right: 1rem;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.forminputcontainer > span{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1230px){
+    .filterpagecontainer{
+        align-items:center;
+    }
+    .filterpageformcontainer{
+        width: 90%;
+        margin-bottom: 2rem;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+    }
+    .filterpageresultcontainer{
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .filterresult{
+        width: 75%;
+    }
+}

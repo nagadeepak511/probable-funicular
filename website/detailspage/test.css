@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+.outer{
+    width: 90%;
+    aspect-ratio:1;
+    background-color: white;
+    margin:2rem auto;
+}
+
+.inner{
+    background-color:red;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+    width: 10%;
+    aspect-ratio: 1;
+    /* margin: auto; */
+    position: sticky;
+    top: 10%;
+    /* transform: translate(-50%, -50%); */
+}
